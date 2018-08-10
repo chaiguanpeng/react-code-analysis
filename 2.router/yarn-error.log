@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\LJ\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\LJ\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\LJ\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Dell\DW WLAN Card;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\WIDCOMM\Bluetooth Software;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn;C:\Program Files\Microsoft SQL Server\100\Tools\Binn;C:\Program Files\Microsoft SQL Server\100\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn;C;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn;C;C:\Program Files\nodejs;E:\软件\vscode\Microsoft VS Code\bin;C:\Users\LJ\AppData\Local\Programs\Python\Python36\Scripts;C:\Users\LJ\AppData\Local\Programs\Python\Python36;E:\软件\vscode\Microsoft VS Code\bin; C;C:\Program Files\Git\Users\LJ\AppData\Local\Programs\Python\Python36-32\python.exe;C:\Users\LJ\AppData\Roaming\npm;C;C:\Program Files\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  10.8.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\LJ\AppData\Local\Yarn\Cache\v2\npm-esprima-4.0.1-13b04cdb3e6c5d19df91ab6987a8695619b0aa71\dist\esprima.js' -> 'E:\learn\router\router\node_modules\esprima\dist\esprima.js'
+
+npm manifest: 
+  {
+    "name": "project1",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "bootstrap": "^3.3.7",
+      "path-to-regexp": "^2.2.1",
+      "react": "^16.4.2",
+      "react-dom": "^16.4.2",
+      "react-router-dom": "^4.3.1",
+      "react-scripts": "1.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
