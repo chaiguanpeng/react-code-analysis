@@ -13,82 +13,80 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.66011786">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Counter.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/3.6 redux-actionsCreater/counter/src/components/Counter.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Todo.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/3.6 redux-actionsCreater/counter/src/components/Todo.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/3.6 redux-actionsCreater/counter/src/store/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <folding>
-                    <element signature="e#0#34#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/3.6 redux-actionsCreater/counter/src/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="154">
-                  <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/3.6 redux-actionsCreater/counter/src/store/reducer/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <folding>
-                    <element signature="e#0#38#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="todo.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/3.6 redux-actionsCreater/counter/src/store/action/todo.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="88">
-                  <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.8 todo-example/todo/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.8 todo-example/todo/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.8 todo-example/todo/src/components/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TodoHeader.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.8 todo-example/todo/src/components/TodoHeader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TodoList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.8 todo-example/todo/src/components/TodoList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TodoFooter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.8 todo-example/todo/src/components/TodoFooter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3.8 todo-example/todo/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="4" selection-start-column="4" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -112,6 +110,17 @@
         <option value="$PROJECT_DIR$/3.6 redux-actionsCreater/counter/src/store/action/todo.js" />
         <option value="$PROJECT_DIR$/3.6 redux-actionsCreater/counter/src/components/Todo.js" />
         <option value="$PROJECT_DIR$/3.6 redux-actionsCreater/counter/src/index.js" />
+        <option value="$PROJECT_DIR$/3.7react-redux/counter/src/index.js" />
+        <option value="$PROJECT_DIR$/3.7react-redux/test.js" />
+        <option value="$PROJECT_DIR$/3.7react-redux/counter/README.md" />
+        <option value="$PROJECT_DIR$/3.7react-redux/counter/src/components/Counter.js" />
+        <option value="$PROJECT_DIR$/3.7react-redux/counter/src/components/Todo.js" />
+        <option value="$PROJECT_DIR$/3.8 todo-example/todo/src/index.js" />
+        <option value="$PROJECT_DIR$/3.8 todo-example/todo/src/components/App.js" />
+        <option value="$PROJECT_DIR$/3.8 todo-example/todo/src/components/TodoHeader.js" />
+        <option value="$PROJECT_DIR$/3.8 todo-example/todo/src/components/TodoList.js" />
+        <option value="$PROJECT_DIR$/3.8 todo-example/todo/src/components/TodoFooter.js" />
+        <option value="$PROJECT_DIR$/3.8 todo-example/todo/README.md" />
       </list>
     </option>
   </component>
@@ -130,6 +139,8 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/3.3react-counter/counter/node_modules" />
     <handled-path value="$PROJECT_DIR$/3.6 redux-actionsCreater/counter/node_modules" />
+    <handled-path value="$PROJECT_DIR$/3.7react-redux/counter/node_modules" />
+    <handled-path value="$PROJECT_DIR$/3.8 todo-example/todo/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-52" />
@@ -153,20 +164,28 @@
             <path>
               <item name="3.redux" type="b2602c69:ProjectViewProjectNode" />
               <item name="3.redux" type="462c0819:PsiDirectoryNode" />
-              <item name="3.6 redux-actionsCreater" type="462c0819:PsiDirectoryNode" />
+              <item name="3.8 todo-example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="3.redux" type="b2602c69:ProjectViewProjectNode" />
               <item name="3.redux" type="462c0819:PsiDirectoryNode" />
-              <item name="3.6 redux-actionsCreater" type="462c0819:PsiDirectoryNode" />
-              <item name="counter" type="462c0819:PsiDirectoryNode" />
+              <item name="3.8 todo-example" type="462c0819:PsiDirectoryNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="3.redux" type="b2602c69:ProjectViewProjectNode" />
               <item name="3.redux" type="462c0819:PsiDirectoryNode" />
-              <item name="3.6 redux-actionsCreater" type="462c0819:PsiDirectoryNode" />
-              <item name="counter" type="462c0819:PsiDirectoryNode" />
+              <item name="3.8 todo-example" type="462c0819:PsiDirectoryNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3.redux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3.redux" type="462c0819:PsiDirectoryNode" />
+              <item name="3.8 todo-example" type="462c0819:PsiDirectoryNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,9 +204,12 @@
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\learn\reactAnalysis\react-code-analysis\3.redux\3.7react-redux\counter" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\learn\reactAnalysis\react-code-analysis\3.redux\3.2redux-counter\js" />
     </key>
@@ -204,6 +226,14 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/3.7react-redux" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.test.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\18610\AppData\Roaming\Subversion</configuration>
   </component>
@@ -217,25 +247,25 @@
       <workItem from="1534751466239" duration="6140000" />
       <workItem from="1534813135122" duration="503000" />
       <workItem from="1534833767691" duration="68000" />
-      <workItem from="1534833854953" duration="1360000" />
+      <workItem from="1534833854953" duration="9684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8071000" />
+    <option name="totallyTimeSpent" value="16395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19546892" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13909379" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3899782" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -384,22 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3.6 redux-actionsCreater/counter/src/components/Counter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.6 redux-actionsCreater/counter/src/store/action/todo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3.6 redux-actionsCreater/counter/src/store/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -428,13 +442,181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3.6 redux-actionsCreater/counter/src/components/Todo.js">
+    <entry file="file://$PROJECT_DIR$/3.7react-redux/counter/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.6 redux-actionsCreater/counter/src/components/Counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.7react-redux/counter/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.7react-redux/counter/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.6 redux-actionsCreater/counter/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.7react-redux/counter/src/store/reducer/counter.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.7react-redux/counter/src/store/action/counter.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.7react-redux/test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.5redux-combineReducers/counter/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.7react-redux/counter/src/store/reducer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.6 redux-actionsCreater/counter/src/components/Todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.7react-redux/counter/src/store/reducer/todo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.6 redux-actionsCreater/counter/src/store/reducer/todo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.6 redux-actionsCreater/counter/src/store/action/todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.7react-redux/counter/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#184#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.7react-redux/counter/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="726">
+            <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.7react-redux/counter/src/components/Todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.7react-redux/counter/src/components/Counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#77#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.8 todo-example/todo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.8 todo-example/todo/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.8 todo-example/todo/src/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.8 todo-example/todo/src/components/TodoHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.8 todo-example/todo/src/components/TodoList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.8 todo-example/todo/src/components/TodoFooter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.8 todo-example/todo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="4" selection-start-column="4" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
