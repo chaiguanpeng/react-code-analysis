@@ -4,3 +4,4 @@ let arr = [
     {isSelected:true,title:'今天喝水了嘛',id:3},
 ];
 console.log(arr[arr.length - 1].id);
+

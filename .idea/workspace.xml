@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739265f1-a9c4-4285-b569-ae22880d99d0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3.redux/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3.redux/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.redux/3.5react-combineReducers/counter/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.redux/3.5react-combineReducers/counter/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.redux/3.5react-combineReducers/counter/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.redux/3.5react-combineReducers/counter/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.redux/3.5react-combineReducers/counter/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.redux/3.5react-combineReducers/counter/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.redux/3.5react-combineReducers/counter/src/components/Compute.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.redux/3.5react-combineReducers/counter/src/components/Counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.redux/3.5react-combineReducers/counter/src/components/Todo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.redux/3.5react-combineReducers/counter/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.redux/3.5react-combineReducers/counter/src/redux.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.redux/3.5react-combineReducers/counter/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.redux/3.5react-combineReducers/counter/src/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.redux/3.5react-combineReducers/counter/yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,7 +20,7 @@
       <file leaf-file-name="Counter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3.redux/3.6 redux-actionsCreater/counter/src/components/Counter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
+            <state relative-caret-position="22">
               <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="2" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -44,15 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Todo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3.redux/3.6 redux-actionsCreater/counter/src/components/Todo.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3.redux/3.6 redux-actionsCreater/counter/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="220">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -140,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,13 +167,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.3.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/3.redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/3.redux/3.8 todo-example" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -250,26 +231,28 @@
       <workItem from="1534822487256" duration="6822000" />
       <workItem from="1534832774703" duration="175000" />
       <workItem from="1534832964754" duration="801000" />
+      <workItem from="1534900764238" duration="46000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20109000" />
+    <option name="totallyTimeSpent" value="20155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15911485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15911485" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19847329" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19847329" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -285,6 +268,25 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/3.redux/3.6 redux-actionsCreater/counter/src/components/Counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.redux/3.6 redux-actionsCreater/counter/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/3.redux/3.4react-counter2/counter/src/redux.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -331,9 +333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -416,21 +415,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3.redux/3.6 redux-actionsCreater/counter/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/3.redux/3.6 redux-actionsCreater/counter/src/store/reducer/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -446,7 +436,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3.redux/3.6 redux-actionsCreater/counter/src/components/Counter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
+        <state relative-caret-position="22">
           <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="2" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -454,12 +444,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3.redux/3.6 redux-actionsCreater/counter/src/components/Todo.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/3.redux/3.6 redux-actionsCreater/counter/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
