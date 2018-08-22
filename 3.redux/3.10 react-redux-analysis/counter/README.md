@@ -1,0 +1,3 @@
+- 第一版本没有setState()不会更新试图，因此改进如上面所述
+- {...mapStateToProps(this.context.store.getState())}
+- {...mapDispatchToProps(this.context.store.dispatch)
