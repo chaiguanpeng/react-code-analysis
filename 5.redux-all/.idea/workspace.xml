@@ -14,24 +14,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/5.8 compose/counter/src/store/index.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5.9applyMiddleware2/counter/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            <state>
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5.8 compose/counter/README.md">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5.9applyMiddleware2/counter/src/redux/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5.9applyMiddleware2/counter/src/store/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="26" selection-start-line="24" selection-end-line="26" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/5.9applyMiddleware2/counter/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="330">
-                <caret line="15" selection-start-line="15" selection-end-line="22" selection-end-column="2" />
+              <first_editor relative-caret-position="132">
+                <caret line="6" selection-start-line="6" selection-end-line="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -99,6 +119,9 @@
         <option value="$PROJECT_DIR$/5.8 compose/counter/src/store/index.js" />
         <option value="$PROJECT_DIR$/5.8 compose/counter/test.js" />
         <option value="$PROJECT_DIR$/5.8 compose/counter/README.md" />
+        <option value="$PROJECT_DIR$/5.9applyMiddleware2/counter/src/redux/index.js" />
+        <option value="$PROJECT_DIR$/5.9applyMiddleware2/counter/src/store/index.js" />
+        <option value="$PROJECT_DIR$/5.9applyMiddleware2/counter/README.md" />
       </list>
     </option>
   </component>
@@ -122,7 +145,8 @@
     <handled-path value="$PROJECT_DIR$/5.5redux-logger/counter/node_modules" />
     <handled-path value="$PROJECT_DIR$/5.6redux-thunk/counter/node_modules" />
     <handled-path value="$PROJECT_DIR$/5.7redux-promise/counter/node_modules" />
-    <handled-path value="$PROJECT_DIR$/5.8 compose/counter/node_modules" />
+    <handled-path value="$PROJECT_DIR$/5.8applyMiddleware1/counter/node_modules" />
+    <handled-path value="$PROJECT_DIR$/5.9applyMiddleware2/counter/node_modules" />
     <handled-path value="$PROJECT_DIR$/demo/demo/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -136,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,40 +170,49 @@
             <path>
               <item name="5.redux-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="5.redux-all" type="462c0819:PsiDirectoryNode" />
-              <item name="5.8 compose" type="462c0819:PsiDirectoryNode" />
+              <item name="5.9applyMiddleware2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="5.redux-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="5.redux-all" type="462c0819:PsiDirectoryNode" />
-              <item name="5.8 compose" type="462c0819:PsiDirectoryNode" />
+              <item name="5.9applyMiddleware2" type="462c0819:PsiDirectoryNode" />
               <item name="counter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="5.redux-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="5.redux-all" type="462c0819:PsiDirectoryNode" />
-              <item name="5.8 compose" type="462c0819:PsiDirectoryNode" />
+              <item name="5.9applyMiddleware2" type="462c0819:PsiDirectoryNode" />
               <item name="counter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="5.redux-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="5.redux-all" type="462c0819:PsiDirectoryNode" />
-              <item name="5.8 compose" type="462c0819:PsiDirectoryNode" />
+              <item name="5.9applyMiddleware2" type="462c0819:PsiDirectoryNode" />
               <item name="counter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="redux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="5.redux-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5.redux-all" type="462c0819:PsiDirectoryNode" />
+              <item name="5.9applyMiddleware2" type="462c0819:PsiDirectoryNode" />
+              <item name="counter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.3.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/5.8 compose" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/5.9applyMiddleware2/counter" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -236,23 +268,25 @@
       <workItem from="1535438068843" duration="6436000" />
       <workItem from="1535445107853" duration="1423000" />
       <workItem from="1535446547131" duration="12000" />
+      <workItem from="1535508333024" duration="527000" />
+      <workItem from="1535508873628" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35767000" />
+    <option name="totallyTimeSpent" value="36304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1459431" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1459431" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.33877996" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" weight="0.33877996" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.33877996" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -281,42 +315,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/5.8 compose/counter/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5.8 compose/counter/README.md">
+    <entry file="file://$PROJECT_DIR$/5.9applyMiddleware2/counter/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="15" selection-start-line="15" selection-end-line="22" selection-end-column="2" />
+          <first_editor relative-caret-position="132">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5.2react-use-redux/counter/src/components/Counter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5.1jq-use-redux/counter/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5.3redux-split/counter/src/store/action-types.js" />
-    <entry file="file://$PROJECT_DIR$/5.3redux-split/counter/src/store/index.js" />
     <entry file="file://$PROJECT_DIR$/5.3redux-split/counter/src/store/reducers/index.js" />
     <entry file="file://$PROJECT_DIR$/5.3redux-split/counter/src/store/reducers/counter.js" />
     <entry file="file://$PROJECT_DIR$/5.3redux-split/counter/src/components/Counter.js" />
@@ -454,16 +462,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5.8 compose/counter/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/5.8 compose/counter/src/store/index.js" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -471,20 +470,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5.8 compose/counter/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="15" selection-start-line="15" selection-end-line="22" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/5.8 compose/counter/README.md" />
+    <entry file="file://$PROJECT_DIR$/5.8 compose/counter/test.js" />
+    <entry file="file://$PROJECT_DIR$/5.9applyMiddleware2/counter/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5.8 compose/counter/test.js">
+    <entry file="file://$PROJECT_DIR$/5.9applyMiddleware2/counter/src/redux/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="484">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.8applyMiddleware1/counter/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="70" lean-forward="true" selection-start-line="25" selection-end-line="25" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.9applyMiddleware2/counter/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="26" selection-start-line="24" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.9applyMiddleware2/counter/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="132">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
