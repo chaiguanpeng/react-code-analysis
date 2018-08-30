@@ -8,6 +8,7 @@ function createSagaMiddleware() {
             }
             function publish(action) {//发布 {type:ADD}
                 //看看有没有人监听
+                debugger;
                 let taker = takers[action.type];
                 if(taker){ //如果有执行 监听函数并且删除监听函数
                     let tmp = taker;
