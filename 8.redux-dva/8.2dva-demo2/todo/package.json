@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "dependencies": {
+    "dva": "^2.4.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "roadhog": "^2.0.0"
+  },
+  "scripts": {
+    "start": "roadhog server",
+    "build": "roadhog build"
+  }
+}
