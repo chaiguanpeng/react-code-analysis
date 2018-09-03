@@ -16,8 +16,8 @@
     <splitter split-orientation="horizontal" split-proportion="0.44033414">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/context/src/index.js">
+          <file leaf-file-name="index-1.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/context/src/index-1.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="44">
                   <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
@@ -96,7 +96,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/hight-component/src/components/Local.js" />
-        <option value="$PROJECT_DIR$/hight-component/src/index.js" />
+        <option value="$PROJECT_DIR$/hight-component/src/index-1.js" />
         <option value="$PROJECT_DIR$/hight-component/src/components/Password.js" />
         <option value="$PROJECT_DIR$/hight-component/src/components/Username.js" />
         <option value="$PROJECT_DIR$/hight-component/README.md" />
@@ -104,7 +104,7 @@
         <option value="$PROJECT_DIR$/context/src/App.js" />
         <option value="$PROJECT_DIR$/context/src/Header.js" />
         <option value="$PROJECT_DIR$/context/src/Title.js" />
-        <option value="$PROJECT_DIR$/context/src/index.js" />
+        <option value="$PROJECT_DIR$/context/src/index-1.js" />
         <option value="$PROJECT_DIR$/context/README.md" />
         <option value="$PROJECT_DIR$/context/src/components/App.js" />
         <option value="$PROJECT_DIR$/context/src/components/Header.js" />
@@ -258,7 +258,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/context/src/index.js">
+    <entry file="file://$PROJECT_DIR$/context/src/index-1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
@@ -325,7 +325,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hight-component/src/index.js">
+    <entry file="file://$PROJECT_DIR$/hight-component/src/index-1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
@@ -353,7 +353,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/context/src/index.js">
+    <entry file="file://$PROJECT_DIR$/context/src/index-1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
@@ -373,7 +373,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/context/node_modules/prop-types/index.js">
+    <entry file="file://$PROJECT_DIR$/context/node_modules/prop-types/index-1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="18" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="18" />

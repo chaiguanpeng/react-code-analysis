@@ -1,4 +1,4 @@
-- 修改了store/index.js。实现redux-thunk中间件
+- 修改了store/index-1.js。实现redux-thunk中间件
 > 在src/store/index.js里面写
 
 ```

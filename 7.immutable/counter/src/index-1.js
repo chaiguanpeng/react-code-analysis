@@ -1,17 +1,18 @@
-import React,{Component} from 'react';
+import React,{Component,PureComponent} from 'react';
 
+// import PureComponent from "./PureComponent"
 import ReactDOM from 'react-dom';
+import _ from "lodash";
 /* PureComponent 纯组件的优化的原理是重写了shouldComponentUpdate，如果说老的状态和新的状态不是一个对象的话才刷新
 *  这样会有问题，解决方案2
 * 1、每次一定都要生成新的对象 可以用lodash中的深拷贝 _.cloneDeep(),但是深拷贝非常消耗内存
 * 2、imutable.js实现
 *
-*
 * */
 
 
 //输入0应该不需要render，状态或者属性没有改变则不渲染
-class Counter extends  Component{
+class Counter extends  PureComponent{
     state = {
         counter:{number:0}
     };

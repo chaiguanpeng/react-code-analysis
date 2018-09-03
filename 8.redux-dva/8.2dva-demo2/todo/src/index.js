@@ -31,6 +31,14 @@ let api = {
         resolve(todos)
       },1000)
     })
+  },
+  del(id){
+    return new Promise((resolve,reject)=>{
+      setTimeout(()=>{
+        todos = todos.filter(todo=>todo.id!=id)
+        resolve(todos)
+      },1000)
+    })
   }
 };
 // 1. 初始化
@@ -44,20 +52,23 @@ app.model({
     filter:"all" //过滤的类型
   },
   reducers:{
-    loaded(state,action){
-      let list = action.list;
-      console.log("----",list);
+    loaded(state,{list}){
       return {
           ...state,
           list
         }
+    },
+    changeFilter(state,{filter}){
+      return {
+        ...state,
+        filter
+      }
     }
   },
-  effects:{
+  effects:{ //effects不能改变状态，只能通过派发动作给reducers
       *load(action,{put,call}){
          let list = yield call(api.load);
-
-        yield put({type:'loaded',list})
+          yield put({type:'loaded',list})
       },
     //切换ID对应的todo的完成状态
     *toggle({id},{put,call}){
@@ -66,6 +77,10 @@ app.model({
     },
     *add({todo},{put,call}){
       let list =  yield call(api.add,todo);
+      yield put({type:'loaded',list});
+    },
+    *del({id},{put,call}){
+      let list =  yield call(api.del,id);
       yield put({type:'loaded',list});
     }
   },
@@ -78,31 +93,34 @@ app.model({
           dispatch({type:"load"})
         }
       })
-
     }
-
   }
 });
 
 // 3. Router
 const HomePage = () => <div>Hello Dva.</div>;
 class Todos extends Component{
-
   render(){
-    let {list,toggle,add} = this.props;
-    console.log("list",list);
+    let {list,toggle,add,changeFilter,filter,del} = this.props;
+    // console.log("list",list);
     return (
         <div>
           <input type="text" ref={input=>this.text = input} onChange={()=>{}}/>
-          <button onClick={()=>add(this.text.value)}>增加</button>
+          <button onClick={()=>{add(this.text.value);this.text.value = ""}}>增加</button>
           <ul>
             {
               list.map(todo=>(<li key={todo.id}>
                 <input type="checkbox" checked={todo.completed} onChange={()=>toggle(todo.id)} />
-                {todo.text}
+                <span style={{textDecoration:todo.completed?"line-through":"none"}}>{todo.text}</span>
+                <button onClick={()=>del(todo.id)}>删除</button>
               </li>))
             }
           </ul>
+          <div>
+            <button style={{color:filter=="uncompleted"&&'red'}} onClick={()=>changeFilter('uncompleted')}>未完成</button>
+            <button style={{color:filter=="completed"&&'red'}} onClick={()=>changeFilter('completed')}>已完成</button>
+            <button style={{color:filter=="all"&&'red'}} onClick={()=>changeFilter("all")}>全部</button>
+          </div>
         </div>
       )
 }}
@@ -112,10 +130,28 @@ let actions = {
   },
   add(text){
     return {type:'todos/add',todo:{id:Date.now(),text,completed:false}}
+  },
+  changeFilter(filter){ //同步的
+    return {type:'todos/changeFilter',filter};
+  },
+  del(id){
+    return {type:'todos/del',id}
   }
 };
-let WrappedTodos = connect(state=>state.todos,actions)(Todos);
-//history是hashHistory和browserHistory的封装，是用来跳转路径的 history.push()
+let WrappedTodos = connect(state=>({
+  filter:state.todos.filter,
+  list:state.todos.list.filter(item=>{
+    switch (state.todos.filter){
+      case "completed":
+        return item.completed;
+      case "uncompleted":
+        return !item.completed;
+      default:
+        return true;
+    }
+  })
+}),actions)(Todos);
+//history是hashHistory和browserHistory的封装，是用来跳转路径的 history.push() history.listen()监听路径变化
 app.router(({ history }) =>
   <Router history={history}>
     <div>

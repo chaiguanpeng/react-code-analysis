@@ -16,7 +16,6 @@ app.model({ //配置模板
     //这里可以定义子reducer，它可以而且只能由它来修改状态
     reducers: { //这个名字是有意义的，如果派发一个counter/add，就会执行此reducer
         add(state,action){
-            // console.log("1",action);
             let newCurrent = state.current+1;
             return {
                 ...state,
@@ -31,7 +30,7 @@ app.model({ //配置模板
             }
         },
     },
-    //这个对象里放的是副作用，放的是
+    //这个对象里放的是副作用，放的是generator
     effects:{
         * add( action,{put,call}){
             // console.log(action);
@@ -39,9 +38,6 @@ app.model({ //配置模板
             yield call(delay,1000);
             //在model里派发动作的话是不需要加counter或者说namespace前缀的
             yield put({type:'minus'})
-        },
-        *madd(){
-            console.log(1);
         }
     }
 });
@@ -69,10 +65,10 @@ let actions = {
     add(){
         return {type:"counter/add"}
     }
-}
+};
 let ConnectedCounter = connect(
     mapStateToProps,actions
-)(Counter)
+)(Counter);
 //定义路由
 app.router(({ history, app }) => (
     <div>
