@@ -3,7 +3,7 @@ import {connect} from "react-redux";
 import actions from "../store/actions"
 class Counter extends React.Component {
     render() {
-        // console.log(this.props);
+        console.log(this.props);
         return (
             <div>
                 <p>{this.props.number}</p>

@@ -1,0 +1,1 @@
+### 最简洁的dva用法，在src/index.js中
