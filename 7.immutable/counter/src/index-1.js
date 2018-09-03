@@ -1,9 +1,9 @@
-import React,{Component,PureComponent} from 'react';
+import React,{Component} from 'react';
 
-// import PureComponent from "./PureComponent"
+import PureComponent from "./PureComponent1"
 import ReactDOM from 'react-dom';
 import _ from "lodash";
-/* PureComponent 纯组件的优化的原理是重写了shouldComponentUpdate，如果说老的状态和新的状态不是一个对象的话才刷新
+/* PureComponent1 纯组件的优化的原理是重写了shouldComponentUpdate，如果说老的状态和新的状态不是一个对象的话才刷新
 *  这样会有问题，解决方案2
 * 1、每次一定都要生成新的对象 可以用lodash中的深拷贝 _.cloneDeep(),但是深拷贝非常消耗内存
 * 2、imutable.js实现
@@ -18,8 +18,7 @@ class Counter extends  PureComponent{
     };
     handleClick = (event)=>{
         // 1、用lodash中深拷贝返回新对象,但是会非常耗内存
-        // let state = _.cloneDeep(this.state);
-        let state = this.state;
+        let state = _.cloneDeep(this.state);
         let amount = this.amount.value ? Number(this.amount.value):0;
         state.counter.number = state.counter.number + amount
         this.setState(state);
