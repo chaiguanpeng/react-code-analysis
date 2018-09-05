@@ -12,11 +12,12 @@ class Counter extends  Component{
             </div>
         )
     }
-};
+}
 let actions = {
   add(payload){
       return {type:'ADD',payload}
   }
 };
+//state是合并后的state，应该也是一个immutable对象。把state已经转化成immutable对象了
 export default connect(
-    state=>({number:state.counter.get("number")}),actions)(Counter)
+    state=>({number:state.getIn(['counter','number'])}),actions)(Counter)
