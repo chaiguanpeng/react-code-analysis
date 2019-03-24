@@ -10,8 +10,20 @@ import {bindActionCreators} from "../redux"
 // 每次都需要将store中的状态映射到组件的状态中, =>(高阶组件中)
 // 订阅更新
 class Counter extends React.Component {
+    static myname='myname';
+    constructor(props){
+        super(props);
+
+    }
+    data;
+    handle = ()=>{
+        // this.data = 'hello';
+        console.log(this.data);
+        console.log(Counter.myname);
+    }
     render() {
         // console.log("counter的props",this.props);
+
         return (
             <div>
                 <button onClick={()=>{
@@ -22,6 +34,7 @@ class Counter extends React.Component {
                 <button onClick={()=>{
                     this.props.minus(1)
                 }}>-</button>
+                <button onClick={this.handle}>点击我</button>
             </div>
             )
     }
