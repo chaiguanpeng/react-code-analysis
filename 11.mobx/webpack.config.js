@@ -1,0 +1,22 @@
+module.exports = {
+    entry:'./src/index.js',
+    mode:'development',
+    output:{
+        filename:'bundle.js',
+        path:require('path').resolve(__dirname,'dist')
+    },
+    module:{
+        rules:[
+            {
+                test:/\.js/,
+                use:{
+                    loader:'babel-loader',
+                    options:{
+                        presets:['env','react','stage-0'],
+                        plugins:['transform-decorators-legacy']
+                    }
+                }
+            }
+        ]
+    }
+}
