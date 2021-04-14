@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "immutable": "^3.8.2",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.19",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.5"
